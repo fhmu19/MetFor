@@ -28,7 +28,8 @@
           <input class="controls" type="number" name="anioIn" id="" placeholder="Ingrese numero de documento" />          
           <h2>Semestre de Ingreso</h2>         
           <input class="controls" type="number" name="semestre" id="" placeholder="1 por ejemplo" />     <br>   
-          <input class="boton" type="submit" value="Enviar"/>
+          <input class="boton" type="submit" value="Enviar"/><br>
+          <p><a href="#">¿Ya tengo Cuenta?</a></p>
     </section>
         
       </div>
