@@ -9,13 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Metodos Formales</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Metodos Formales</h1>
         <jsp:useBean id="Mybean" scope="session" class="co.edu.unipiloto.hello.NameHandler" />
         <jsp:setProperty name="Mybean" property="name"  />
         <h2>Su nombre es: </h2>
-        <jsp:getProperty name="Mybean" property="name" />
+        <h2><jsp:getProperty name="Mybean" property="name" /></h2>
     </body>
 </html>
