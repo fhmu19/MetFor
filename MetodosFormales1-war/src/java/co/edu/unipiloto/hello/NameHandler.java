@@ -58,27 +58,27 @@ public class NameHandler
             System.out.println("Fecha de nacimiento no valida");
         }else if((ain<=yac && min<mac && din>dac))//Ya cumplio dia mayor a dia actual Listo
         {
-            this.fechaNac="Edad: "+((yac-ain))+"años/"+(mac-min)+"meses/"+((30-din)+dac)+"dias";
+            this.fechaNac=((yac-ain))+" Años "+(mac-min)+" Meses "+((30-din)+dac)+" Dias";
             System.out.println("Edad: "+((yac-ain))+"años/"+(mac-min)+"meses/"+((30-din)+dac)+"dias");
         }else if((ain<=yac && min<mac && din<=dac))//Ya cumplio dia menor o igual a dia actual Listo
         {
-            this.fechaNac="Edad: "+((yac-ain))+"años/"+(mac-min)+"meses/"+(dac-din)+"dias";
+            this.fechaNac=((yac-ain))+" Años "+(mac-min)+" Meses "+(dac-din)+" Dias";
             System.out.println("Edad: "+((yac-ain))+"años/"+(mac-min)+"meses/"+(dac-din)+"dias");
         }else if((ain<=yac && min==mac && din>dac))//No ha cumplido dia mayor a dia actual Listo
         {
-            this.fechaNac="Edad: "+((yac-ain)-1)+"años/"+(11)+"meses/"+((30-din)+dac)+"dias";
+            this.fechaNac=((yac-ain)-1)+" Años "+(11)+" Meses "+((30-din)+dac)+" Dias";
             System.out.println("Edad: "+((yac-ain)-1)+"años/"+(11)+"meses/"+((30-din)+dac)+"dias");
         }else if((ain<=yac && min==mac && din<dac))//Ya cumplio dia menor a dia actual Listo
         {
-            this.fechaNac="Edad: "+((yac-ain))+"años/"+(mac-min)+"meses/"+(dac-din)+"dias";
+            this.fechaNac=((yac-ain))+" Años "+(mac-min)+" Meses "+(dac-din)+" Dias";
             System.out.println("Edad: "+((yac-ain))+"años/"+(mac-min)+"meses/"+(dac-din)+"dias");
         }else if(ain<=yac && min>mac && din>dac )//No ha cumplido mes mayor dia mayor a dia actual Listo 
         {
-            this.fechaNac="Edad: "+((yac-ain)-1)+"años/"+(12-min+mac-1)+"meses/"+((30-din)+dac)+"dias";
+            this.fechaNac=((yac-ain)-1)+" Años "+(12-min+mac-1)+" Meses "+((30-din)+dac)+" Dias";
             System.out.println("Edad: "+((yac-ain)-1)+"años/"+(12-min+mac)+"meses/"+((30-din)+dac)+"dias");
         }else if(ain<=yac && min>mac && din<dac )//No ha cumplido mes mayor dia menor o igual a dia actual Listo
         {
-            this.fechaNac="Edad: "+((yac-ain)-1)+"años/"+(12-min+mac)+"meses/"+(dac-din)+"dias";
+            this.fechaNac=((yac-ain)-1)+" Años "+(12-min+mac)+" Meses "+(dac-din)+" Dias";
             System.out.println("Edad: "+((yac-ain)-1)+"años/"+(12-min+mac)+"meses/"+(dac-din)+"dias");
         }
                 

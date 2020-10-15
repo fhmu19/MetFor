@@ -10,9 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Metodos Formales</title>
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <h1>Metodos FormalesLaboratorio NameHandler</h1>
+        <h1>Metodos Formales Laboratorio NameHandler</h1>
         <jsp:useBean id="Mybean" scope="session" class="co.edu.unipiloto.hello.NameHandler" />
         <jsp:setProperty name="Mybean" property="name"  />
         <h2>Su nombre es: </h2>
